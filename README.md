@@ -2,7 +2,8 @@
 We implement a digit classifier and we test it on Kaggle Contest. 
 We train our classifier using k-fold cross-validation to reduce overfitting. The following methods are implemented:
 1) kNN: for each sample we search the k Nearest Neighbours and we guess its label based on proximity. 
-2) PCA + kNN: We use the Tterative Power Method for approximating the dominant eigenvalue and we use Deflation techniques. Then, we combine it with kNN. 
+2) PCA + kNN: We use the Iterative Power Method for approximating the dominant eigenvalue and we use Deflation techniques. Then, we combine it with kNN. 
+
 The main purpose is to iteratively achieve better results on metrics such as recall and accuracy.  
 
 
