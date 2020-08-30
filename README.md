@@ -13,7 +13,7 @@ The main purpose is to iteratively achieve better results on metrics such as rec
 1. Clone repository.
 
 ```
-git clone <remote url>
+git clone https://github.com/celesrodriguez/digit-recognizer.git
 ```
 
 2. Dowload `pybind` and `eigen` as submodules
