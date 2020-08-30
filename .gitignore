@@ -1,0 +1,14 @@
+docs/*.aux
+**/*.log
+**/*.out
+docs/*.toc
+docs/*.gz
+docs/*.pdf
+docs/*.bak
+docs/*.synctex(busy)
+src/build/*
+src/out/*
+.idea/
+src/CMakeLists.txt
+src/cmake-build-debug
+*.DS_store
